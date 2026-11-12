@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="E-WASTE: aprenda sobre lixo eletrônico, reciclagem e reutilização de componentes.">
+  <title>E-WASTE | Conscientização Eletrônica</title>
+  <link rel="stylesheet" href="av3.css"
+  <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/1048/1048942.png">
+</head>
+<body>
+
+  <header class="header">
+    <a href="#inicio" class="logo">E-<span>WASTE</span></a>
+
+    <button class="menu-toggle" id="menuToggle" aria-label="Abrir menu">☰</button>
+
+    <nav id="nav">
+      <a href="#inicio">Início</a>
+      <a href="#sobre">Sobre</a>
+      <a href="#impactos">Impactos</a>
+      <a href="#reutilizacao">Reutilização</a>
+      <a href="#descarte">Descarte</a>
+      <a href="#quiz">Quiz</a>
+    </nav>
+  </header>
+
+  <main id="conteudo">
+
+    <!-- INÍCIO -->
+    <section class="hero" id="inicio">
+      <div class="hero-content">
+        <span class="tag">TECNOLOGIA + SUSTENTABILIDADE</span>
+        <h1>O futuro também depende do destino do nosso <span>lixo eletrônico.</span></h1>
+        <p>
+          Descubra como o descarte correto e a reutilização de equipamentos
+          eletrônicos podem ajudar a proteger o planeta.
+        </p>
+        <a href="#sobre" class="btn">Conheça o projeto</a>
+      </div>
+
+      <div class="hero-image">
+        <div class="electronic-icon">♻</div>
+        <h2>REDUZA • REUTILIZE • RECICLE</h2>
+        <p>Uma atitude sustentável começa com você.</p>
+      </div>
+    </section>
+
+    <!-- PAINEL DE ACESSIBILIDADE -->
+    <section class="accessibility" aria-labelledby="accessTitle">
+      <div>
+        <h2 id="accessTitle">Acessibilidade</h2>
+        <p>Personalize a visualização e utilize os recursos de voz.</p>
+      </div>
+
+      <div class="access-buttons">
+        <button id="increaseFont" aria-label="Aumentar tamanho do texto">A+</button>
+        <button id="decreaseFont" aria-label="Diminuir tamanho do texto">A-</button>
+        <button id="contrastButton">Alto contraste</button>
+        <button id="readingMode">Modo de leitura</button>
+        <button id="resetAccess">Restaurar visual</button>
+      </div>
+
+      <div class="voice-controls">
+        <button id="readPage">🔊 Ouvir página</button>
+        <button id="pauseReading">⏸ Pausar</button>
+        <button id="resumeReading">▶ Continuar</button>
+        <button id="stopReading">⏹ Parar</button>
+      </div>
+
+      <div class="voice-controls">
+        <button id="voiceCommand">🎙 Ativar comandos de voz</button>
+        <span id="voiceStatus" role="status" aria-live="polite">
+          Recursos de voz prontos.
+        </span>
+      </div>
+    </section>
+
+    <!-- SOBRE -->
+    <section class="section" id="sobre">
+      <div class="section-heading">
+        <span>ENTENDA O PROBLEMA</span>
+        <h2>O que é lixo eletrônico?</h2>
+      </div>
+
+      <p class="section-description">
+        Lixo eletrônico, também chamado de e-waste, é o conjunto de aparelhos
+        elétricos e eletrônicos descartados por não funcionarem mais ou por
+        terem sido substituídos. Exemplos incluem celulares, computadores,
+        televisores, impressoras e baterias.
+      </p>
+
+      <div class="cards">
+        <article class="card">
+          <div class="card-icon">📱</div>
+          <h3>Celulares</h3>
+          <p>Aparelhos antigos, quebrados ou sem utilidade para seus donos.</p>
+        </article>
+
+        <article class="card">
+          <div class="card-icon">💻</div>
+          <h3>Computadores</h3>
+          <p>Notebooks, monitores, teclados, mouses e outros acessórios.</p>
+        </article>
+
+        <article class="card">
+          <div class="card-icon">📺</div>
+          <h3>Televisores</h3>
+          <p>Equipamentos de imagem e som que não são mais utilizados.</p>
+        </article>
+
+        <article class="card">
+          <div class="card-icon">🔋</div>
+          <h3>Baterias</h3>
+          <p>Precisam de coleta apropriada e nunca devem ser descartadas no lixo comum.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- IMPACTOS -->
+    <section class="section dark-section" id="impactos">
+      <div class="section-heading">
+        <span>CONSEQUÊNCIAS</span>
+        <h2>Impactos do descarte incorreto</h2>
+      </div>
+
+      <div class="impact-grid">
+        <article>
+          <span>🌱</span>
+          <h3>Solo contaminado</h3>
+          <p>O descarte inadequado pode liberar substâncias perigosas no ambiente.</p>
+        </article>
+
+        <article>
+          <span>💧</span>
+          <h3>Água contaminada</h3>
+          <p>Resíduos podem atingir rios e outras fontes de água.</p>
+        </article>
+
+        <article>
+          <span>🌍</span>
+          <h3>Poluição ambiental</h3>
+          <p>O acúmulo de resíduos prejudica ecossistemas e comunidades.</p>
+        </article>
+
+        <article>
+          <span>♻️</span>
+          <h3>Desperdício de recursos</h3>
+          <p>Materiais que poderiam ser recuperados acabam sendo desperdiçados.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- REUTILIZAÇÃO -->
+    <section class="section" id="reutilizacao">
+      <div class="section-heading">
+        <span>ECONOMIA CIRCULAR</span>
+        <h2>O que pode ser reutilizado?</h2>
+      </div>
+
+      <p class="section-description">
+        Muitos equipamentos possuem peças que podem ser reaproveitadas
+        quando estão em boas condições e são compatíveis com o novo aparelho.
+      </p>
+
+      <div class="filter-buttons">
+        <button class="filter-btn active" data-filter="todos">Todos</button>
+        <button class="filter-btn" data-filter="celular">Celulares</button>
+        <button class="filter-btn" data-filter="computador">Computadores</button>
+        <button class="filter-btn" data-filter="televisao">Televisores</button>
+        <button class="filter-btn" data-filter="outros">Outros</button>
+      </div>
+
+      <div class="reuse-grid">
+
+        <article class="reuse-card" data-category="celular">
+          <h3>📱 Celulares</h3>
+          <ul>
+            <li>Tela em boas condições</li>
+            <li>Câmeras</li>
+            <li>Alto-falantes</li>
+            <li>Botões e carcaça</li>
+            <li>Peças de conexão compatíveis</li>
+          </ul>
+          <p>As peças precisam ser testadas e compatíveis com o aparelho de destino.</p>
+        </article>
+
+        <article class="reuse-card" data-category="computador">
+          <h3>💻 Computadores</h3>
+          <ul>
+            <li>Memória RAM</li>
+            <li>SSD e HD</li>
+            <li>Teclado e mouse</li>
+            <li>Ventoinhas</li>
+            <li>Gabinete</li>
+          </ul>
+          <p>Memórias e unidades de armazenamento dependem da compatibilidade técnica.</p>
+        </article>
+
+        <article class="reuse-card" data-category="televisao">
+          <h3>📺 Televisores</h3>
+          <ul>
+            <li>Alto-falantes</li>
+            <li>Suportes</li>
+            <li>Cabos</li>
+            <li>Conectores</li>
+            <li>Algumas placas eletrônicas</li>
+          </ul>
+          <p>Placas e componentes internos devem ser avaliados por profissionais.</p>
+        </article>
+
+        <article class="reuse-card" data-category="outros">
+          <h3>🖨️ Impressoras</h3>
+          <ul>
+            <li>Motores</li>
+            <li>Engrenagens</li>
+            <li>Cabos</li>
+            <li>Estrutura externa</li>
+            <li>Algumas placas</li>
+          </ul>
+          <p>O reaproveitamento depende do modelo e do estado das peças.</p>
+        </article>
+
+        <article class="reuse-card" data-category="outros">
+          <h3>🎮 Videogames</h3>
+          <ul>
+            <li>Botões</li>
+            <li>Controles</li>
+            <li>Cabos</li>
+            <li>Ventoinhas</li>
+            <li>Carcaças</li>
+          </ul>
+          <p>Alguns acessórios podem ser usados em outros equipamentos compatíveis.</p>
+        </article>
+
+        <article class="reuse-card" data-category="outros">
+          <h3>🎧 Fones e caixas de som</h3>
+          <ul>
+            <li>Alto-falantes</li>
+            <li>Cabos</li>
+            <li>Conectores</li>
+            <li>Botões</li>
+            <li>Carcaças</li>
+          </ul>
+          <p>O funcionamento e a compatibilidade precisam ser verificados.</p>
+        </article>
+
+      </div>
+
+      <div class="warning">
+        <strong>⚠ Atenção:</strong>
+        não tente desmontar baterias, fontes ou componentes internos sem
+        orientação adequada. Peças danificadas devem ser encaminhadas a
+        profissionais ou pontos de coleta especializados.
+      </div>
+    </section>
+
+    <!-- DESCARTE -->
+    <section class="section dark-section" id="descarte">
+      <div class="section-heading">
+        <span>FAÇA A SUA PARTE</span>
+        <h2>Como descartar corretamente?</h2>
+      </div>
+
+      <div class="steps">
+        <article>
+          <span>01</span>
+          <h3>Separe</h3>
+          <p>Não misture eletrônicos com o lixo doméstico comum.</p>
+        </article>
+
+        <article>
+          <span>02</span>
+          <h3>Procure um ponto de coleta</h3>
+          <p>Encontre locais especializados em receber resíduos eletrônicos.</p>
+        </article>
+
+        <article>
+          <span>03</span>
+          <h3>Entregue o material</h3>
+          <p>Leve o equipamento ao local de recebimento adequado.</p>
+        </article>
+
+        <article>
+          <span>04</span>
+          <h3>Reutilize quando possível</h3>
+          <p>Se o aparelho ainda funcionar, considere consertar ou doar.</p>
+        </article>
+      </div>
+
+      <a class="btn" href="https://sinir.gov.br/" target="_blank" rel="noopener">
+        Consultar informações sobre resíduos
+      </a>
+    </section>
+
+    <!-- CALCULADORA -->
+    <section class="section" id="calculadora">
+      <div class="section-heading">
+        <span>DESCUBRA</span>
+        <h2>Calculadora de resíduos</h2>
+      </div>
+
+      <p class="section-description">
+        Informe quantos aparelhos eletrônicos você pretende encaminhar
+        para descarte ou reciclagem.
+      </p>
+
+      <div class="calculator">
+        <label for="deviceCount">Quantidade de aparelhos:</label>
+        <input type="number" id="deviceCount" min="0" max="10000" value="1">
+        <button class="btn" id="calculateButton">Calcular</button>
+        <p id="calculatorResult" role="status" aria-live="polite">
+          Informe a quantidade de aparelhos.
+        </p>
+      </div>
+    </section>
+
+    <!-- DESAFIOS -->
+    <section class="section dark-section" id="desafios">
+      <div class="section-heading">
+        <span>MUDE SEUS HÁBITOS</span>
+        <h2>Desafios sustentáveis</h2>
+      </div>
+
+      <p class="section-description">
+        Marque as atitudes que você já realizou.
+      </p>
+
+      <div class="missions">
+        <label><input type="checkbox" class="mission"> Separei eletrônicos sem uso.</label>
+        <label><input type="checkbox" class="mission"> Pesquisei um ponto de coleta.</label>
+        <label><input type="checkbox" class="mission"> Evitei descartar uma peça no lixo comum.</label>
+        <label><input type="checkbox" class="mission"> Conversei com alguém sobre lixo eletrônico.</label>
+      </div>
+
+      <p id="missionProgress">0 de 4 desafios concluídos.</p>
+      <div class="progress-track">
+        <div id="missionBar"></div>
+      </div>
+      <p id="missionFeedback" aria-live="polite"></p>
+    </section>
+
+    <!-- QUIZ -->
+    <section class="section" id="quiz">
+      <div class="section-heading">
+        <span>TESTE SEUS CONHECIMENTOS</span>
+        <h2>Quiz E-WASTE</h2>
+      </div>
+
+      <div class="quiz-box">
+        <p id="questionCounter">Pergunta 1 de 5</p>
+        <div class="progress-track">
+          <div id="quizProgress"></div>
+        </div>
+
+        <h3 id="questionText">Carregando pergunta...</h3>
+        <div id="answerOptions" class="answer-options"></div>
+        <p id="quizFeedback" role="status" aria-live="polite"></p>
+
+        <button class="btn" id="nextQuestion" disabled>Próxima pergunta</button>
+
+        <div id="quizFinal" hidden>
+          <h3>Quiz finalizado!</h3>
+          <p id="finalScore"></p>
+          <p id="bestScore"></p>
+          <button class="btn" id="restartQuiz">Tentar novamente</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="section" id="faq">
+      <div class="section-heading">
+        <span>DÚVIDAS FREQUENTES</span>
+        <h2>Perguntas e respostas</h2>
+      </div>
+
+      <details>
+        <summary>Posso jogar pilhas no lixo comum?</summary>
+        <p>Não. Pilhas e baterias devem ser entregues em pontos de coleta apropriados.</p>
+      </details>
+
+      <details>
+        <summary>Todo eletrônico pode ser reciclado?</summary>
+        <p>Muitos podem ser reciclados, mas o processo depende dos materiais e da estrutura do equipamento.</p>
+      </details>
+
+      <details>
+        <summary>O que fazer com um aparelho que ainda funciona?</summary>
+        <p>Você pode continuar usando, consertar ou doar, desde que esteja em boas condições.</p>
+      </details>
+
+      <details>
+        <summary>Por que reutilizar peças?</summary>
+        <p>Porque isso pode reduzir o desperdício de materiais e prolongar a vida útil de componentes.</p>
+      </details>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <h2>E-WASTE</h2>
+    <p>O futuro é eletrônico. A responsabilidade é de todos.</p>
+    <p>Projeto educativo sobre lixo eletrônico e sustentabilidade.</p>
+    <p>© <span class="copyright"></span> E-WASTE</p>
+  </footer>
+
+  <script src="javas.js"></script>
+</body>
+</html>
